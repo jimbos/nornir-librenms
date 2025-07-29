@@ -55,7 +55,13 @@ class LibreInventory(object):
 
         elif os in ['iosxr']:
             return 'cisco', 'iosxr', 'cisco_iosxr'
+            
+        elif os in ['vrp']:
+            return 'huawei', 'vrp', 'huawei_vrp'
 
+        elif os in ['junos']:
+            return 'juniper', 'junos', 'juniper_junos'
+            
         elif os in ['asa']:
             return 'cisco', 'asa', 'cisco_asa'
 
